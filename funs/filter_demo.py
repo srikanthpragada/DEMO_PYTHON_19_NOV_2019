@@ -10,3 +10,6 @@ for v in filter(iseven, l):
 
 for c in filter(str.isupper, "Hello PYTHON"):
     print(c)
+
+for v in filter(lambda n : n % 2 != 0, l):
+    print(v)
