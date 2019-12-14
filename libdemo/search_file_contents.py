@@ -1,9 +1,12 @@
 # run from command line as follows:
-# python search_files.py pattern startdir
+# python search_file_contents.py pattern startdir
+# Assignment
 
 import os
 import sys
 
+def has_string(file,string):
+    pass
 
 if len(sys.argv) < 2:
     print("Usage : python search_files.py pattern [startdir]")
